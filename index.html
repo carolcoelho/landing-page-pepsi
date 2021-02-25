@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepsi Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <section class="sec">
+        <header>
+            <img class="logo" src="./img/logo (1).png" alt="logo">
+
+            <div class="menu-section">
+                <div class="menu-toggle">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">What's new</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="content">
+            <div class="textBox">
+                <h2>That's what <br><span>I Like</span></h2>
+                <p> Lorem Ipsum has been the industry's standard dummy text ever
+                    since the 1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type specimen book. It has
+                    survived not only five centuries.
+                </p>
+                <a href="#">View All Products</a>
+            </div>
+
+            <div class="imgBox">
+                <img src="./img/pepsi001.png" class="pepsi" alt="imagem pepsi original">
+            </div>
+            <div class="thumb">
+                <ul>
+                    <li><img src="./img/pepsi001.png"
+                            onclick="imgSlider('./img/pepsi001.png') ;changeBgColor('#0062be')"
+                            alt=" Imagem Pepsi original"></li>
+                    <li><img src="./img/pepsi002.png"
+                            onclick="imgSlider('./img/pepsi002.png') ;changeBgColor('#e60c2c')" alt="Imagem Diet Pepsi">
+                    <li><img src="./img/pepsi003.png"
+                            onclick="imgSlider('./img/pepsi003.png') ;changeBgColor('#1e1e1e')"
+                            alt="Imagem Pepsi Zero Sugar">
+                </ul>
+            </div>
+            <div class="social">
+                <ul>
+                    <li><a class="fb" href="#"> <img src="./img/facebook.png" alt="facebook"></a></li>
+                    <li><a href="#"> <img src="./img/twitter.png" alt="facebook"></a></li>
+                    <li><a href="#"> <img src="./img/instagram.png" alt="facebook"></a></li>
+                </ul>
+            </div>
+
+        </main>
+    </section>
+</body>
+
+<script src="script.js"></script>
+
+</html>
